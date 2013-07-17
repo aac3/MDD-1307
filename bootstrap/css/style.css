@@ -1,0 +1,47 @@
+body{
+	background-image: url("../img/greywall.png");
+}
+
+.jumbotron p, .span6 p{
+	color: #fbf8f5;
+}
+.container a{
+	padding-left: 110px;
+}
+
+.container-narrow h3{
+	font-size: 3.5em;
+	color:#0088CC;
+}
+.form-signin a:hover{
+	text-decoration: none;
+}
+
+.about1{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-style:normal;
+	line-height: 25px;
+}
+
+.about1 a:hover{
+	text-decoration: none;
+}
+
+.area h1{
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+
+.container-narrow, .trademark h3{
+	margin-left: 110px;
+}
+
+.container-narrow, .trademark h3, .muted a:hover{
+	text-decoration: none;
+}
+
+.controls a{
+	padding-left: 70px;
+	text-decoration: none;
+}
