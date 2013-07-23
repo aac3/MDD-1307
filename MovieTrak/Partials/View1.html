@@ -1,0 +1,19 @@
+<ul class="thumbnails" ng-repeat="movie in movieList.movies">
+	<li class="span5 clearfix">
+		<div class="thumbnail clearfix">					
+			<img src="{{movie.posters.profile}}" class="pull-left span2 clearfix">
+		</div>
+	</li>
+	<br />
+	<div  class="caption" class="pull-left">				
+		<li class="info">
+			Title: {{movie.title}}
+				<br />
+			Release Date:  {{movie.year}}
+				<br />
+			Rating:  {{movie.mpaa_rating}}
+				<br />
+			Runtime: {{movie.runtime}}
+		</li>
+	 </div>
+</ul>	       	
