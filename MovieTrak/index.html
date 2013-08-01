@@ -9,15 +9,15 @@
 	<body ng-app="MovieDb">
 	    <div class="container-fluid" ng-controller="MovieController">
 	      <div class="hero-unit">
-	        <h2>MovieTrak</h2>
-	        <p>Trak down any movie with MovieTrak</p>
-	      
-	       	 <form id="custom-search-form" class="form-search form-horizontal pull-right">
-			   		<div class="input-append span12">
-				   		<input type="text" class="search-query" placeholder="Trak a Movie" ng-model="movieTitle">
-				   		<button type="submit" ng-click="searchMovie()" class="btn btn-primary"><i class="icon-search icon-white"></i></button>
-				   	</div>
-				</form>	 
+	        <h1><img class="logo" src="img/logo.png"></h1>
+	        <div class="sub">
+	        	<p>Trak down any movie with MovieTrak</p>
+	        </div>
+	       	 <form class="form-horizontal">			   	 
+				   	 <input type="text" class="form-control" placeholder="Trak a Movie" ng-model="movieTitle">
+				   	 <button type="submit" ng-click="searchMovie()" class="btn"><i class="icon-search"></i></button>				  
+			  </form>
+			  
 	       </div>      	
 		   <div>
 		   	<div ng-view></div>

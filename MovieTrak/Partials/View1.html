@@ -1,7 +1,7 @@
-<ul class="thumbnails" ng-repeat="movie in movieList.movies">
+<ul class="thumbnails" ng-repeat="movie in movieList.movies">	
 	<li class="span5 clearfix">
 		<div class="thumbnail clearfix">					
-			<img src="{{movie.posters.profile}}" class="pull-left span2 clearfix">
+			<img src="{{movie.posters.detailed}}" class="img-polaroid">		
 		</div>
 	</li>
 	<br />
@@ -9,11 +9,15 @@
 		<li class="info">
 			Title: {{movie.title}}
 				<br />
-			Release Date:  {{movie.year}}
+			Release Date: {{movie.year}}
 				<br />
-			Rating:  {{movie.mpaa_rating}}
+			Rated:  {{movie.mpaa_rating}}
 				<br />
-			Runtime: {{movie.runtime}}
+			Duration: {{movie.runtime}}
+				<br />
+			Audience Score: {{movie.ratings.audience_score}}
+				<br />
+			<p><a href="{{movie.links.alternate}}" target="_blank">More information</a></p>
 		</li>
-	 </div>
+     </div>
 </ul>	       	
